@@ -1,0 +1,191 @@
+﻿
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PetAppWeb3._0</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PetAppWeb3._0.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="947c47c2ae" crossorigin="anonymous" />
+
+
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/animate.css">
+    <link rel="stylesheet" href="~/css/owl.carousel.css">
+    <link rel="stylesheet" href="~/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/css/magnific-popup.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="~/css/templatemo-style.css">
+</head>
+
+
+<body>
+   
+
+    <!-- NavBar -->
+
+    <header>
+        <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon icon-bar"></span>
+                        <span class="icon icon-bar"></span>
+                        <span class="icon icon-bar"></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-nav-first" style="display: inline-block;">
+                        <li style="display: inline-block; margin-right: 10px;"><a class="smoothScroll" asp-controller="Home" asp-action="Index">INICIO</a></li>
+                        <li style="display: inline-block; margin-right: 10px;"><a class="smoothScroll" asp-controller="Home" asp-action="About">NOSOTROS</a></li>
+                        <li style="display: inline-block; margin-right: 10px;"><a class="smoothScroll" asp-controller="Home" asp-action="Servicios">SERVICIOS</a></li>
+                        <li style="display: inline-block; margin-right: 10px;"><a class="smoothScroll" asp-controller="Home" asp-action="Contacto">CONTACTANOS</a></li>
+                    </ul>
+
+                    <div class="navbar-brand" style="height: 60px; display: flex; align-items: center; justify-content: center;">
+                        <a href="@Url.Action("Index", "Home")"><img src="@Url.Content("~/images/logo-color.png")" alt="Logo de la empresa" style="max-width: 33%; max-height: 31%; margin-left: 5em;"></a>
+                    </div>
+
+
+                    @*<img src="@Url.Content("~/images/logo-color.png")" alt="Logo de la empresa" style="height: 100%; width: auto; max-height: 50px;">*@
+
+
+                    <ul class="nav navbar-nav navbar-right" style="display: inline-block;">
+                        @*<li><a href="#">Call Now! <i class="fa fa-phone"></i> 010 020 0340</a></li>*@
+                        <a href="#footer" class="section-btn">URGENCIAS</a>
+                    </ul>
+
+                </div>
+
+            </div>
+        </section>
+    </header>
+
+
+
+   
+
+    <div class="container-fluid">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+    <footer id="footer" data-stellar-background-ratio="0.5">
+        <div class="container-fluid">
+            <div class="row">
+                <i class="fas fa-globe"></i>
+
+                <div class="col-md-3 col-sm-8">
+                    <div class="footer-info">
+                        <div class="section-title">
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s">Find us</h2>
+                        </div>
+                        <address class="wow fadeInUp" data-wow-delay="0.4s">
+                            <p>123 nulla a cursus rhoncus,<br> augue sem viverra 10870<br>id ultricies sapien</p>
+                        </address>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-8">
+                    <div class="footer-info">
+                        <div class="section-title">
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s">Reservation</h2>
+                        </div>
+                        <address class="wow fadeInUp" data-wow-delay="0.4s">
+                            <p>090-080-0650 | 090-070-0430</p>
+                            <p><a href="mailto:info@company.com">info@company.com</a></p>
+                            <p>LINE: eatery247 </p>
+                        </address>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-8">
+                    <div class="footer-info footer-open-hour">
+                        <div class="section-title">
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s">Open Hours</h2>
+                        </div>
+                        <div class="wow fadeInUp" data-wow-delay="0.4s">
+                            <p>Monday: Closed</p>
+                            <div>
+                                <strong>Tuesday to Friday</strong>
+                                <p>7:00 AM - 9:00 PM</p>
+                            </div>
+                            <div>
+                                <strong>Saturday - Sunday</strong>
+                                <p>11:00 AM - 10:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-4">
+                    <ul class="wow fadeInUp social-icon" data-wow-delay="0.4s">
+                        <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-instagram"></a></li>
+                        <li><a href="#" class="fa fa-google"></a></li>
+                    </ul>
+
+                    <div class="wow fadeInUp copyright-text" data-wow-delay="0.8s">
+                        <p>
+                            <br>Copyright &copy; 2018 <br>Your Company Name
+
+                            <br><br>Design: TemplateMo
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            &copy; 2023 - PetPathWepApp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+
+
+    <!-- SCRIPTS -->
+    <script src="~/js/jquery.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/jquery.stellar.min.js"></script>
+    <script src="~/js/wow.min.js"></script>
+    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="~/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/js/smoothscroll.js"></script>
+    <script src="~/js/custom.js"></script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+
+</body>
+</html>
+
+
+@*<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2023 - PetAppWeb3._0 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+</footer>*@
