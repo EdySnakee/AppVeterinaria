@@ -65,6 +65,22 @@
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
     },
     {
+      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\AImg1.png",
+      "PackagePath": "staticwebassets\\images\\AImg1.png"
+    },
+    {
+      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\Doc1.png",
+      "PackagePath": "staticwebassets\\images\\Doc1.png"
+    },
+    {
+      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\Doc2.png",
+      "PackagePath": "staticwebassets\\images\\Doc2.png"
+    },
+    {
+      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\Doc3.png",
+      "PackagePath": "staticwebassets\\images\\Doc3.png"
+    },
+    {
       "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\about-image.jpg",
       "PackagePath": "staticwebassets\\images\\about-image.jpg"
     },
