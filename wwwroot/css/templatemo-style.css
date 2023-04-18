@@ -404,15 +404,15 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .slider .item-first {
-    background-image: url(../images/slider-image1.jpg);
+    background-image: url(../images/Slider1.png);
   }
 
   .slider .item-second {
-    background-image: url(../images/slider-image2.jpg);
+    background-image: url(../images/Slider22.png);
   }
 
   .slider .item-third {
-    background-image: url(../images/slider-image3.jpg);
+    background-image: url(../images/Slider3.png);
   }
 
   .slider .item-second .section-btn {
@@ -643,7 +643,7 @@ http://www.templatemo.com/tm-515-eatery
   -----------------------------------------*/
 
   #testimonial {
-    background: url('../images/testimonial-bg.jpg') center center no-repeat;
+    background: url('../images/Testimoniales.png') center center no-repeat;
     background-size: cover;
   }
 

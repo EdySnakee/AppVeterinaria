@@ -37,8 +37,8 @@
       "PackagePath": "staticwebassets\\css\\templatemo-style.css"
     },
     {
-      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\favi-Pet.ico",
+      "PackagePath": "staticwebassets\\favi-Pet.ico"
     },
     {
       "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\fonts\\FontAwesome.otf",
@@ -69,6 +69,18 @@
       "PackagePath": "staticwebassets\\images\\AImg1.png"
     },
     {
+      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\CerSal.png",
+      "PackagePath": "staticwebassets\\images\\CerSal.png"
+    },
+    {
+      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\Cesp.png",
+      "PackagePath": "staticwebassets\\images\\Cesp.png"
+    },
+    {
+      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\Diag.png",
+      "PackagePath": "staticwebassets\\images\\Diag.png"
+    },
+    {
       "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\Doc1.png",
       "PackagePath": "staticwebassets\\images\\Doc1.png"
     },
@@ -81,12 +93,52 @@
       "PackagePath": "staticwebassets\\images\\Doc3.png"
     },
     {
+      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\HOSP.png",
+      "PackagePath": "staticwebassets\\images\\HOSP.png"
+    },
+    {
+      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\Lap.png",
+      "PackagePath": "staticwebassets\\images\\Lap.png"
+    },
+    {
+      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\Slider1.png",
+      "PackagePath": "staticwebassets\\images\\Slider1.png"
+    },
+    {
+      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\Slider2.png",
+      "PackagePath": "staticwebassets\\images\\Slider2.png"
+    },
+    {
+      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\Slider22.png",
+      "PackagePath": "staticwebassets\\images\\Slider22.png"
+    },
+    {
+      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\Slider3.png",
+      "PackagePath": "staticwebassets\\images\\Slider3.png"
+    },
+    {
+      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\Testimoniales.png",
+      "PackagePath": "staticwebassets\\images\\Testimoniales.png"
+    },
+    {
+      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\Urg.png",
+      "PackagePath": "staticwebassets\\images\\Urg.png"
+    },
+    {
       "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\about-image.jpg",
       "PackagePath": "staticwebassets\\images\\about-image.jpg"
     },
     {
       "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\footer-open-hour-bg.jpg",
       "PackagePath": "staticwebassets\\images\\footer-open-hour-bg.jpg"
+    },
+    {
+      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\image -About.png",
+      "PackagePath": "staticwebassets\\images\\image -About.png"
+    },
+    {
+      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\image -About2.png",
+      "PackagePath": "staticwebassets\\images\\image -About2.png"
     },
     {
       "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\logo-color.png",
@@ -115,18 +167,6 @@
     {
       "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\menu-image6.jpg",
       "PackagePath": "staticwebassets\\images\\menu-image6.jpg"
-    },
-    {
-      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\slider-image1.jpg",
-      "PackagePath": "staticwebassets\\images\\slider-image1.jpg"
-    },
-    {
-      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\slider-image2.jpg",
-      "PackagePath": "staticwebassets\\images\\slider-image2.jpg"
-    },
-    {
-      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\slider-image3.jpg",
-      "PackagePath": "staticwebassets\\images\\slider-image3.jpg"
     },
     {
       "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\testimonial-bg.jpg",
