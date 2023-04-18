@@ -129,18 +129,6 @@
       "PackagePath": "staticwebassets\\images\\slider-image3.jpg"
     },
     {
-      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\team-image1.jpg",
-      "PackagePath": "staticwebassets\\images\\team-image1.jpg"
-    },
-    {
-      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\team-image2.jpg",
-      "PackagePath": "staticwebassets\\images\\team-image2.jpg"
-    },
-    {
-      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\team-image3.jpg",
-      "PackagePath": "staticwebassets\\images\\team-image3.jpg"
-    },
-    {
       "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\testimonial-bg.jpg",
       "PackagePath": "staticwebassets\\images\\testimonial-bg.jpg"
     },
