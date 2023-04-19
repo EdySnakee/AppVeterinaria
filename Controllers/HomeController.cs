@@ -17,17 +17,18 @@ namespace PetAppWeb3._0.Controllers
         {
             return View();
         }
-           public IActionResult Contacto()
+        public IActionResult Contacto()
         {
             return View();
         }
-
-
         public IActionResult About()
         {
             return View();
         }
-   
+        public IActionResult Servicios()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
