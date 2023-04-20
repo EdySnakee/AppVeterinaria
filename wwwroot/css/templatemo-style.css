@@ -750,8 +750,8 @@ http://www.templatemo.com/tm-515-eatery
 
   footer {
     border-top: 1px solid rgba(0,0,0,0.05);
-    padding: 120px 0;
-    padding-bottom: 80px;
+    padding: 18px 40px;
+    padding-bottom: 0px;
   }
 
   footer .section-title {
@@ -786,7 +786,7 @@ http://www.templatemo.com/tm-515-eatery
     background-size: cover;
     border-radius: 20px;
     margin-top: 0;
-    padding: 40px 0 40px 80px;
+    padding: 0px 0 0px 0px;
     overflow: hidden;
     position: relative;
     z-index: 22;
