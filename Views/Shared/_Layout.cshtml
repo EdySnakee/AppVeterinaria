@@ -27,19 +27,21 @@
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="~/css/templatemo-style.css">
-        <link rel="shortcut icon" type="image/x-icon" href="~/favi-Pet.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="~/favi-Pet.ico">
 
 </head>
 
 
 <body>
-   
+
 
     <!-- NavBar -->
 
     <header>
+
+
         <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
-            <div class="container-fluid">
+            <div class="container">
 
                 <div class="navbar-header">
                     <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -47,13 +49,12 @@
                         <span class="icon icon-bar"></span>
                         <span class="icon icon-bar"></span>
                     </button>
+                   
                 </div>
             </div>
-        </section>
 
 
 
-        <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
             <div class="container-fluid">
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-nav-first" style="display: inline-block;">
@@ -62,13 +63,13 @@
                         <li style="display: inline-block; margin-right: 10px;"><a class="smoothScroll" asp-controller="Home" asp-action="Servicios">SERVICIOS</a></li>
                         <li style="display: inline-block; margin-right: 10px;"><a class="smoothScroll" asp-controller="Home" asp-action="Contacto">CONTACTANOS</a></li>
                     </ul>
-
-                    <div class="navbar-brand" style="height: 60px; display: flex; align-items: center; justify-content: center;">
-                        <a href="@Url.Action("Index", "Home")"><img src="@Url.Content("~/images/logo-color.png")" alt="Logo de la empresa" style="max-width: 33%; max-height: 31%; margin-left: 5em;"></a>
-                    </div>
-
+                    <a class="navbar-brand" href="@Url.Action("Index", "Home")">
+                        <img class="logo-img" src="@Url.Content("~/images/logo-color.png")" alt="Pet Path">
+                    </a>
                     <ul class="nav navbar-nav navbar-right" style="display: inline-block;">
                         <a href="https://wa.me/5521961001" target="_blank" class="section-btn">URGENCIAS</a>
+                        <li><a href="#"><i class="fa fa-phone"></i> +52 55 7601 4830</a></li>
+
                     </ul>
 
 
@@ -80,7 +81,7 @@
 
 
 
-   
+
 
     <div class="container-fluid">
         <main role="main" class="pb-3">
@@ -125,7 +126,7 @@
                     <ul class="wow fadeInUp social-icon text-center" data-wow-delay="0.4s">
                         <li><a href="@Configuration.GetValue(typeof(String), "Website:Facebook")" target="_blank" class="fa fa-facebook-square" attr="facebook icon"></a></li>
 
-                        <li> <a href="@Configuration.GetValue(typeof(String), "Website:Instagram")"target="_blank" class="fa fa-instagram"></a></li>
+                        <li> <a href="@Configuration.GetValue(typeof(String), "Website:Instagram")" target="_blank" class="fa fa-instagram"></a></li>
 
                         <li><a href="#" class="fa fa-google"></a></li>
 
