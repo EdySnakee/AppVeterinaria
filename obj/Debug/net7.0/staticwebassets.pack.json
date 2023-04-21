@@ -141,6 +141,10 @@
       "PackagePath": "staticwebassets\\images\\logo-color.png"
     },
     {
+      "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\nosotros.png",
+      "PackagePath": "staticwebassets\\images\\nosotros.png"
+    },
+    {
       "Id": "C:\\source\\RepoApp3.0\\PetAppWeb3.0\\wwwroot\\images\\testimonial-bg.jpg",
       "PackagePath": "staticwebassets\\images\\testimonial-bg.jpg"
     },
