@@ -1,75 +1,90 @@
-﻿@{
+﻿@inject IConfiguration Configuration
+@{
 
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<style>
+    #contact-form {
+        margin-top: 13px;
+        width: 700px;
+    }
 
-
-
-
-
-
-
-<section id="about" data-stellar-background-ratio="0.5">
+</style>
+<section id="contact" data-stellar-background-ratio="0.5" style="margin-top:43px;">
     <div class="container">
         <div class="row">
+            <div class="col-md-6">
+             
+                
+               <iframe src="@Configuration.GetValue(typeof(String), "Website:UbicacionHosp")"
+                    width="650" height="550" style="border:0; border-radius:10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h4>Hospital Veterinario Pet Path</h4>
+                <p>Av. Thiers 195-Local 3, Anzures, Miguel Hidalgo, 11590 Ciudad de México, CDMX</p>
+                <div class="social-icons">
 
-            <div class="col-md-6 col-sm-12">
-                <div class="about-info">
-                    <div class="section-title wow fadeInUp" data-wow-delay="0.2s">
-                        <h4>Expertos en diferentes áreas de la medicina veterinaria</h4>
-                        <h2>Contamos con el mejor equipo médico para tu mascota</h2>
-                    </div>
 
-                    <div class="wow fadeInUp" data-wow-delay="0.4s">
-                        <p>En Pet Path sabemos la importancia que tiene la salud y el bienestar de tu mascota. Es por eso por lo que estamos comprometidos en ofrecerte los mejores tratamientos y cuidados veterinarios, con la más alta tecnología, de la mano de nuestro equipo conformado por los mejores especialistas.</p>
-                        <p>Brindar el mejor trato a las familias que confían en nosotros ayudando a la mejora de sus mascotas, es nuestra razón de ser.</p>
-                    </div>
+
+                    <ul class="wow fadeInUp social-icon text-center" data-wow-delay="0.4s">
+                        <li><a href="https://www.facebook.com/petpath.vet/" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="https://www.instagram.com/petpath.vet/" class="fa fa-instagram"></a></li>
+                        <li><a href="#" class="fa fa-google"></a></li>
+                    </ul>
+
                 </div>
             </div>
 
-            <div class="col-md-6 col-sm-12">
-                <div class="wow fadeInUp about-image" data-wow-delay="0.4s">
-                    <img src="~/images/image -About2.png" class="img-responsive" style="" alt="">
-                </div>
-            </div>
 
+            <div class="col-6">
+                <h2 class="section-title text-center" style="">Contáctanos</h2>
+                <form action="#" method="post" class="form-horizontal wow fadeInUp" id="contact-form" role="form" data-wow-delay="0.8s">
+                    <!-- código del formulario -->
+                    <div class="alert alert-success alert-dismissible fade in" role="alert" style="display: none;" id="success-alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <strong>Gracias!</strong> Tu mensaje nos llego con exito.
+                    </div>
+
+                    <!-- IF MAIL NOT SENT -->
+                    <div class="alert alert-danger alert-dismissible fade in" role="alert" style="display: none;" id="error-alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <strong>Error!</strong> E-mail must be valid and message must be longer than 1 character.
+                    </div>
+
+                    <div class="form-group">
+                        <label for="input-name" class="col-sm-2 control-label">Nombre</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="input-name" name="name" placeholder="Nombre" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="input-email" class="col-sm-2 control-label">Correo</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="input-email" name="email" placeholder="miMascota@gmail.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="input-message" class="col-sm-2 control-label">Mensaje</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" rows="6" id="input-message" name="message" placeholder="Cuentanos como te ayudamos." required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-primary" id="cf-submit" name="submit">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
+
     </div>
-</section>
+  </section>
+                       
 
 
-<!-- contact -->
-<div>
-    <section id="contact" data-stellar-background-ratio="0.5">
 
-        <!-- contact form -->
-        <form action="#" method="post" class="wow fadeinup" id="contact-form" role="form" data-wow-delay="0.8s">
-
-            <!-- if mail sent successful  // connect this with custom js -->
-            <h6 class="text-success">your message has been sent successfully.</h6>
-
-            <!-- if mail not sent -->
-            <h6 class="text-danger">e-mail must be valid and message must be longer than 1 character.</h6>
-
-            <div class="col-md-6 col-sm-6">
-                <input type="text" class="form-control" id="cf-name" name="name" placeholder="full name">
-            </div>
-
-            <div class="col-md-6 col-sm-6">
-                <input type="email" class="form-control" id="cf-email" name="email" placeholder="email address">
-            </div>
-
-            <div class="col-md-12 col-sm-12">
-                <input type="text" class="form-control" id="cf-subject" name="subject" placeholder="subject">
-
-                <textarea class="form-control" rows="6" id="cf-message" name="message" placeholder="tell about your project"></textarea>
-
-                <button type="submit" class="form-control" id="cf-submit" name="submit">send message</button>
-            </div>
-        </form>
-
-    </section>
-</div>
 
 
 

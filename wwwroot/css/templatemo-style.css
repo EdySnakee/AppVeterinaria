@@ -728,19 +728,19 @@ http://www.templatemo.com/tm-515-eatery
     height: 55px;
   }
 
-  #contact button#cf-submit {
-    background: #ce3232;
+#contact button#cf-submit {
+    background: #00617F;
     border-radius: 0;
     border: 0;
     color: #ffffff;
     font-weight: bold;
     height: 50px;
-  }
+}
 
-  #contact button#cf-submit:hover {
-    background: #292929;
-    color: #ffffff;
-  }
+    #contact button#cf-submit:hover {
+        background: #ce3232;
+        color: #ffffff;
+    }
 
 
 
@@ -850,10 +850,10 @@ http://www.templatemo.com/tm-515-eatery
     position: relative;
   }
 
-  .social-icon li a:hover {
-    background: #ce3232;
-    color: #ffffff;
-  }
+    .social-icon li a:hover {
+        background: #00617F;
+        color: #ffffff;
+    }
 
 
 
