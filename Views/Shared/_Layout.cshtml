@@ -1,4 +1,4 @@
-﻿
+﻿@inject IConfiguration Configuration
 
 
 
@@ -67,14 +67,10 @@
                         <a href="@Url.Action("Index", "Home")"><img src="@Url.Content("~/images/logo-color.png")" alt="Logo de la empresa" style="max-width: 33%; max-height: 31%; margin-left: 5em;"></a>
                     </div>
 
-
-                    @*<img src="@Url.Content("~/images/logo-color.png")" alt="Logo de la empresa" style="height: 100%; width: auto; max-height: 50px;">*@
-
-
                     <ul class="nav navbar-nav navbar-right" style="display: inline-block;">
-                        @*<li><a href="#">Call Now! <i class="fa fa-phone"></i> 010 020 0340</a></li>*@
-                        <a href="#footer" class="section-btn">URGENCIAS</a>
+                        <a href="https://wa.me/5521961001" target="_blank" class="section-btn">URGENCIAS</a>
                     </ul>
+
 
                 </div>
 
@@ -125,15 +121,15 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-md-2 col-sm-12" style="margin: -22px 95px 0 -76px;">
                     <ul class="wow fadeInUp social-icon text-center" data-wow-delay="0.4s">
-                        <li><a href="https://www.facebook.com/petpath.vet/" class="fa fa-facebook-square" attr="facebook icon"></a></li>
-                        <li><a href="#" class="fa fa-twitter"></a></li>
-                        <li><a href="https://www.instagram.com/petpath.vet/" class="fa fa-instagram"></a></li>
-                        <li><a href="#" class="fa fa-google"></a></li>
-                    </ul>
+                        <li><a href="@Configuration.GetValue(typeof(String), "Website:Facebook")" target="_blank" class="fa fa-facebook-square" attr="facebook icon"></a></li>
 
+                        <li> <a href="@Configuration.GetValue(typeof(String), "Website:Instagram")"target="_blank" class="fa fa-instagram"></a></li>
+
+                        <li><a href="#" class="fa fa-google"></a></li>
+
+                    </ul>
                     <div class="wow fadeInUp text-center" data-wow-delay="0.8s">
                         <p>
                             <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>

@@ -214,11 +214,11 @@ http://www.templatemo.com/tm-515-eatery
     padding: 25px 0;
   }
 
-  .custom-navbar .navbar-brand {
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: bold;
-  }
+    .custom-navbar .navbar-brand {
+        color: #00617F;
+        font-size: 18px;
+        font-weight: bold;
+    }
 
   .custom-navbar .navbar-brand span {
     color: #ce3232;
@@ -259,15 +259,15 @@ http://www.templatemo.com/tm-515-eatery
     color: #ffffff;
   }
 
-  .custom-navbar .nav li a {
+.custom-navbar .nav li a {
     font-size: 16px;
     font-weight: bold;
-    color: #ffffff;
+    color: #00617F;
     padding-right: 22px;
     padding-left: 22px;
     text-transform: uppercase;
     margin-top: 5px;
-  }
+}
 
   .custom-navbar .nav li a:hover {
     background: transparent;
